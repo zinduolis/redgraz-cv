@@ -1,5 +1,7 @@
 # React JS Resume Website Template
 
+Big shoutout and thank you to original template creator: https://github.com/tbakerx/react-resume-template
+
 ![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true 'ReactJS Resume Website Template')
 
 ### View a [live demo here.](https://reactresume.com)
