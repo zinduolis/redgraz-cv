@@ -2,7 +2,10 @@
   "name": "react-resume-template",
   "version": "2.0.0",
   "private": true,
+  "homepage": "https://zinduolis.github.io/redgraz-cv/",
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "build": "yarn compile && yarn next build",
     "clean": "rm -rf build-tsc .next",
     "compile": "yarn run -T tsc --build --verbose",
@@ -16,6 +19,7 @@
     "@heroicons/react": "^1.0.6",
     "autoprefixer": "^10.4.2",
     "classnames": "^2.3.1",
+    "gh-pages": "^4.0.0",
     "next": "^12.1.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
