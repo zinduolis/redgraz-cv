@@ -1,10 +1,10 @@
 import {
   AcademicCapIcon,
-  CalendarIcon,
+ // CalendarIcon,
   DownloadIcon,
-  FlagIcon,
+ // FlagIcon,
   MapIcon,
-  OfficeBuildingIcon,
+ // OfficeBuildingIcon,
   SparklesIcon,
 } from '@heroicons/react/outline';
 
@@ -15,17 +15,18 @@ import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 //import heroImage from '../images/header-background.webp';
 import heroImage from '../images/Sea_Landscape.jpg';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage1 from '../images/portfolio/1 - waveportal.png';
+// import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+// import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+// import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+// import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+// import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+// import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+// import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 // import testimonialImage from '../images/Garden.jpg';
@@ -80,7 +81,7 @@ export const heroData: Hero = {
         the next chapter for the world with more automation and transparency!.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me surfing <strong className="text-stone-100">in the ocean 🏄‍♂️</strong>
+        In my free time time, you can catch me surfing <strong className="text-stone-100">in the ocean 🏄‍♂️ {' '}</strong>
         or looking after my beautiful {' '}
         <strong className="text-stone-100">backyard garden 👨‍🌾</strong>.
       </p>
@@ -106,16 +107,20 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `• Passion for coding discovered early in school years. I was invited to participate in school, and then city level programming Olympiads using Pascal language.
+  • Computer Science studies gave me a deeper dive into coding concepts and programming languages (C++, C, ASM to name a few).
+  • For my bachelor’s degree, I’ve delivered LabView automation for Laser Research Centre. I have automated laser induced damage measurement system.
+  • After graduating, I pursued an IT career which led to multiple roles with HP partners and HP itself. Here I covered multiple areas in software development, integration and automation, from requirements gathering, designing to seeing customers smile and perform their duties using my code in production (JavaScript, Java, Jython, Basic, SQL, etc.).
+  • I entered the security field to make applications less prone to the actions of malicious actors, instilling peace of mind for people that the tools I am building are safe. Through my security journey, I have interacted with multiple technologies and coding languages (multiple operating systems, CI/CD platforms, containers, service buses, TypeScript, Python, React, MongoDb, etc.).
+  • After joining a Swyftx Crypto Exchange, I discovered and fell in love with crypto and blockchain technology. Now I want to get my hands dirty in the coding technologies for web3 and write the next chapter for the world with more automation and transparency!
+  • Since Swyftx, I have independently started smart contracts projects on local and test blockchain networks using Solidity and interacting with them through React frontend.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'QLD, Australia', Icon: MapIcon},
+   // {label: 'Age', text: '29', Icon: CalendarIcon},
+  //  {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
+    {label: 'Interests', text: 'Coding, Surfing, Gardening', Icon: SparklesIcon},
+    {label: 'Study', text: 'Computer Science / Physics', Icon: AcademicCapIcon},
+  //  {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -127,16 +132,24 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
+        name: 'Lithuanian',
+        level: 10,
+      },
+      {
         name: 'English',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Russian',
+        level: 8,
       },
       {
-        name: 'Spanish',
-        level: 3,
+        name: 'Polish',
+        level: 6,
+      },
+      {
+        name: 'German',
+        level: 5,
       },
     ],
   },
@@ -145,15 +158,19 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 7,
       },
       {
         name: 'Typescript',
         level: 7,
       },
       {
-        name: 'GraphQL',
+        name: 'Angular',
         level: 6,
+      },
+      {
+        name: 'Javascript',
+        level: 8,
       },
     ],
   },
@@ -162,32 +179,108 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
+        level: 7,
+      },
+      {
+        name: 'Solidity',
         level: 8,
       },
       {
-        name: 'Rust',
+        name: 'C++',
+        level: 6,
+      },
+      {
+        name: 'Java',
         level: 5,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'C',
+        level: 8,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Scripting',
     skills: [
       {
-        name: 'React Native',
+        name: 'Javascript',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Python',
+        level: 8,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Jython',
+        level: 7,
+      },
+      {
+        name: 'Basic',
+        level: 5,
+      },
+    ],
+  },
+  {
+    name: 'Database',
+    skills: [
+      {
+        name: 'MongoDB',
+        level: 5,
+      },
+      {
+        name: 'SQL',
+        level: 8,
+      },
+      {
+        name: 'Oracle',
+        level: 7,
+      },
+    ],
+  },
+  {
+    name: 'Virtualisation',
+    skills: [
+      {
+        name: 'Docker',
+        level: 6,
+      },
+      {
+        name: 'Kubernetes',
+        level: 6,
+      },
+    ],
+  },
+  {
+    name: 'CI/CD',
+    skills: [
+      {
+        name: 'GitHub',
+        level: 9,
+      },
+      {
+        name: 'GitLab',
+        level: 6,
+      },
+      {
+        name: 'Buildkite',
+        level: 5,
+      },
+    ],
+  },
+  {
+    name: 'Web Hosting',
+    skills: [
+      {
+        name: 'Vercel',
+        level: 8,
+      },
+      {
+        name: 'Replit',
+        level: 8,
+      },
+      {
+        name: 'GitHub Pages',
+        level: 8,
       },
     ],
   },
@@ -198,70 +291,10 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Wave Portal',
+    description: 'Smart contract written and deployed to Ethereum testnet with React frontend.',
+    url: 'https://redgraz-waveportal.ilgakulnis.repl.co/',
     image: porfolioImage1,
-  },
-  {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage11,
   },
 ];
 
@@ -270,16 +303,46 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2020',
+    location: 'SANS Institute',
+    title: 'GIAC Security Essentials Certified',
+    content: <p>Essential information security skills and techniques to protect and secure critical information and technology assets.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2019',
+    location: 'ISC2',
+    title: 'CISSP Certified',
+    content: <p>Earning CISSP proves I have what it takes to effectively design, implement and manage a best-in-class cybersecurity program.</p>,
+  },
+  {
+    date: '2018',
+    location: 'The Open Group',
+    title: 'TOGAF 9.1 Certified',
+    content: <p>It's the most used framework for enterprise architecture that provides an approach for designing, planning, implementing, and governing an enterprise IT architecture.</p>,
+  },
+  {
+    date: '2012',
+    location: 'HP',
+    title: 'Accredited Integration Specialist Service Manager v9',
+    content: <p>Skills and experience required to implement and integrate HP Service Manager solutions.</p>,
+  },
+  {
+    date: '2010',
+    location: 'HP',
+    title: 'Certified Instructor',
+    content: <p>Skills and experience required to train people on HP products.</p>,
+  },
+  {
+    date: '2008',
+    location: 'EXIN',
+    title: 'ITIL v3 Foundation Certified',
+    content: <p>ITIL is the preeminent global framework for IT service management and delivery.</p>,
+  },
+  {
+    date: '2007',
+    location: 'Vilnius University, Lithuania',
+    title: 'Bachelor (Computer Science / Physics)',
+    content: <p>Course that taught me more in depth programming and physics.</p>,
   },
 ];
 
