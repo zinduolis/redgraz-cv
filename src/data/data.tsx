@@ -358,11 +358,17 @@ export const experience: TimelineItem[] = [
     location: 'Freelancer',
     title: 'Web3 Developer',
     content: (
-      <p>   
-• Mastering Solidity through cryptozombies.io projects (smart contracts for the game, using ERC721 standard, calling oracles, writing Truffle test cases). 
-• Multiple Web3 & Web2 projects on my GitHub using the following technologies: Solidity, React (JS/TS), Hardhat & Ganache local blockchains, Truffle development framework, Infura node, Ropsten Network, Remix IDE, openzeppelin, ethers and web3 libraries. 
-• Hacking Solidity Smart Contracts through Ethernaut. 
-</p>
+      <>
+        <p>   
+          • Mastering Solidity through cryptozombies.io projects (smart contracts for the game, using ERC721 standard, calling oracles, writing Truffle test cases). 
+        </p>
+        <p>  
+          • Multiple Web3 & Web2 projects on my GitHub using the following technologies: Solidity, React (JS/TS), Hardhat & Ganache local blockchains, Truffle development framework, Infura node, Ropsten Network, Remix IDE, openzeppelin, ethers and web3 libraries. 
+        </p>
+        <p>  
+          • Hacking Solidity Smart Contracts through Ethernaut. 
+        </p>
+</>
     ),
   },
   {
@@ -370,20 +376,29 @@ export const experience: TimelineItem[] = [
     location: 'Swyftx',
     title: 'Application Security Engineer',
     content: (
-      <p>
-• Web App security testing / pen testing and vulnerability remediation (OWASP ASVS).
-• Standing up cyber capability (NIST CSF) and creating companywide value ‘Act Securely’.
-• Threat modelling (Attack Trees, STRIDE).
-• Assisting with GDPR and ISO 27001.
-      </p>
+      <>
+        <p>
+          • Web App security testing / pen testing and vulnerability remediation (OWASP ASVS).
+        </p>
+        <p>
+          • Standing up cyber capability (NIST CSF) and creating companywide value ‘Act Securely’.
+        </p>
+        <p>
+          • Threat modelling (Attack Trees, STRIDE).
+        </p>
+        <p>
+          • Assisting with GDPR and ISO 27001.
+        </p>
+      </>
     ),
   },
   {
-    date: '',
-    location: '',
+    date: 'CV',
+    location: 'LinkedIn',
     title: 'Detailed Experience can be provided upon request',
     content: (
       <p>
+        .....
       </p>
     ),
   },
