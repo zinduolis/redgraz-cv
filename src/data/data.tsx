@@ -1,7 +1,7 @@
 import {
   AcademicCapIcon,
  // CalendarIcon,
-  DownloadIcon,
+ // DownloadIcon,
  // FlagIcon,
   MapIcon,
  // OfficeBuildingIcon,
@@ -14,7 +14,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 //import heroImage from '../images/header-background.webp';
-import heroImage from '../images/Sea_Landscape.jpg';
+import heroImage from '../images/Sea_Landscape.webp';
 import porfolioImage1 from '../images/portfolio/1 - waveportal.png';
 // import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 // import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -27,7 +27,7 @@ import porfolioImage1 from '../images/portfolio/1 - waveportal.png';
 // import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 // import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 // import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/profilepic.webp';
 import testimonialImage from '../images/testimonial.webp';
 // import testimonialImage from '../images/Garden.jpg';
 import {
