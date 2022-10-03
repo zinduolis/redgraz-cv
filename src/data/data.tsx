@@ -9,10 +9,10 @@ import {
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
+//import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+// import TwitterIcon from '../components/Icon/TwitterIcon';
 //import heroImage from '../images/header-background.webp';
 import heroImage from '../images/Sea_Landscape.jpg';
 import porfolioImage1 from '../images/portfolio/1 - waveportal.png';
@@ -88,12 +88,12 @@ export const heroData: Hero = {
     </>
   ),
   actions: [
-    {
-      href: '/assets/resume.pdf',
-      text: 'Resume',
-      primary: true,
-      Icon: DownloadIcon,
-    },
+    // {
+    //   href: '/assets/resume.pdf',
+    //   text: 'Resume',
+    //   primary: true,
+    //   Icon: DownloadIcon,
+    // },
     {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
