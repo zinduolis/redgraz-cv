@@ -107,13 +107,15 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `• Passion for coding discovered early in school years. I was invited to participate in school, and then city level programming Olympiads using Pascal language.
-  • Computer Science studies gave me a deeper dive into coding concepts and programming languages (C++, C, ASM to name a few).
-  • For my bachelor’s degree, I’ve delivered LabView automation for Laser Research Centre. I have automated laser induced damage measurement system.
-  • After graduating, I pursued an IT career which led to multiple roles with HP partners and HP itself. Here I covered multiple areas in software development, integration and automation, from requirements gathering, designing to seeing customers smile and perform their duties using my code in production (JavaScript, Java, Jython, Basic, SQL, etc.).
-  • I entered the security field to make applications less prone to the actions of malicious actors, instilling peace of mind for people that the tools I am building are safe. Through my security journey, I have interacted with multiple technologies and coding languages (multiple operating systems, CI/CD platforms, containers, service buses, TypeScript, Python, React, MongoDb, etc.).
-  • After joining a Swyftx Crypto Exchange, I discovered and fell in love with crypto and blockchain technology. Now I want to get my hands dirty in the coding technologies for web3 and write the next chapter for the world with more automation and transparency!
-  • Since Swyftx, I have independently started smart contracts projects on local and test blockchain networks using Solidity and interacting with them through React frontend.`,
+  description: [
+    {line: `• Passion for coding discovered early in school years. I was invited to participate in school, and then city level programming Olympiads using Pascal language.`},
+    {line: `• Computer Science studies gave me a deeper dive into coding concepts and programming languages (C++, C, ASM to name a few). `},
+    {line: `• For my bachelors degree, I have delivered LabView automation for Laser Research Centre. I have automated laser induced damage measurement system.`},
+    {line: `• After graduating, I pursued an IT career which led to multiple roles with HP partners and HP itself. Here I covered multiple areas in software development, integration and automation, from requirements gathering, designing to seeing customers smile and perform their duties using my code in production (JavaScript, Java, Jython, Basic, SQL, etc.).`},
+    {line: `• I entered the security field to make applications less prone to the actions of malicious actors, instilling peace of mind for people that the tools I am building are safe. Through my security journey, I have interacted with multiple technologies and coding languages (multiple operating systems, CI/CD platforms, containers, service buses, TypeScript, Python, React, MongoDb, etc.).`},
+    {line: `• After joining a Swyftx Crypto Exchange, I discovered and fell in love with crypto and blockchain technology. Now I want to get my hands dirty in the coding technologies for web3 and write the next chapter for the world with more automation and transparency!`},
+    {line: `• Since Swyftx, I independently work on projects with smart contracts on local and test blockchains using Solidity and interacting with them through React frontend.`},
+  ], 
   aboutItems: [
     {label: 'Location', text: 'QLD, Australia', Icon: MapIcon},
    // {label: 'Age', text: '29', Icon: CalendarIcon},
@@ -356,11 +358,11 @@ export const experience: TimelineItem[] = [
     location: 'Freelancer',
     title: 'Web3 Developer',
     content: (
-      <p>      
-• Mastering Solidity through cryptozombies.io projects (smart contracts for the game, using ERC721 standard, calling oracles, writing Truffle test cases).
-• Multiple Web3 & Web2 projects on my GitHub using the following technologies: Solidity, React (JS/TS), Hardhat & Ganache local blockchains, Truffle development framework, Infura node, Ropsten Network, Remix IDE, openzeppelin, ethers and web3 libraries.
-• Hacking Solidity Smart Contracts through Ethernaut.
-      </p>
+      <p>   
+• Mastering Solidity through cryptozombies.io projects (smart contracts for the game, using ERC721 standard, calling oracles, writing Truffle test cases). 
+• Multiple Web3 & Web2 projects on my GitHub using the following technologies: Solidity, React (JS/TS), Hardhat & Ganache local blockchains, Truffle development framework, Infura node, Ropsten Network, Remix IDE, openzeppelin, ethers and web3 libraries. 
+• Hacking Solidity Smart Contracts through Ethernaut. 
+</p>
     ),
   },
   {
