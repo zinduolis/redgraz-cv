@@ -77,12 +77,12 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I am <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        as <strong className="text-stone-100">Freelance Web3 Developer</strong> with aim to write 
+        as <strong className="text-stone-100">Freelance Web3 Developer - </strong> I aim to write the code that writes
         the next chapter for the world with more automation and transparency!
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me surfing <strong className="text-stone-100">in the ocean 🏄‍♂️ {' '}</strong>
-        or looking after my beautiful {' '}
+        In my free time, you'll find me <strong className="text-stone-100"> {' '} surfing 🏄‍♂️ {' '}</strong>
+        or tending my beautiful {' '}
         <strong className="text-stone-100">backyard garden 👨‍🌾</strong>.
       </p>
     </>
