@@ -314,13 +314,13 @@ export const education: TimelineItem[] = [
     date: '2019',
     location: 'ISC2',
     title: 'CISSP Certified',
-    content: <p>Earning CISSP proves I have what it takes to effectively design, implement and manage a best-in-class cybersecurity program.</p>,
+    content: <p>Obtaining the CISSP accreditation demonstrated I had what it it takes to effectively design, implement and manage best-in-class cybersecurity programs.</p>,
   },
   {
     date: '2018',
     location: 'The Open Group',
     title: 'TOGAF 9.1 Certified',
-    content: <p>It's the most used framework for enterprise architecture that provides an approach for designing, planning, implementing, and governing an enterprise IT architecture.</p>,
+    content: <p>Working with the most commonly used framework for enterprise architecture - providing an approach for designing, planning, implementing, and governing an enterprise IT architecture.</p>,
   },
   {
     date: '2012',
@@ -338,7 +338,7 @@ export const education: TimelineItem[] = [
     date: '2008',
     location: 'EXIN',
     title: 'ITIL v3 Foundation Certified',
-    content: <p>ITIL is the preeminent global framework for IT service management and delivery.</p>,
+    content: <p>ITIL is the pre-eminent global framework for IT service management and delivery.</p>,
   },
   {
     date: '2007',
