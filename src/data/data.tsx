@@ -108,13 +108,13 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: [
-    {line: `• Passion for coding discovered early in school years. I was invited to participate in school, and then city level programming Olympiads using Pascal language.`},
-    {line: `• Computer Science studies gave me a deeper dive into coding concepts and programming languages (C++, C, ASM to name a few). `},
-    {line: `• For my bachelors degree, I have delivered LabView automation for Laser Research Centre. I have automated laser induced damage measurement system.`},
-    {line: `• After graduating, I pursued an IT career which led to multiple roles with HP partners and HP itself. Here I covered multiple areas in software development, integration and automation, from requirements gathering, designing to seeing customers smile and perform their duties using my code in production (JavaScript, Java, Jython, Basic, SQL, etc.).`},
-    {line: `• I entered the security field to make applications less prone to the actions of malicious actors, instilling peace of mind for people that the tools I am building are safe. Through my security journey, I have interacted with multiple technologies and coding languages (multiple operating systems, CI/CD platforms, containers, service buses, TypeScript, Python, React, MongoDb, etc.).`},
-    {line: `• After joining a Swyftx Crypto Exchange, I discovered and fell in love with crypto and blockchain technology. Now I want to get my hands dirty in the coding technologies for web3 and write the next chapter for the world with more automation and transparency!`},
-    {line: `• Since Swyftx, I independently work on projects with smart contracts on local and test blockchains using Solidity and interacting with them through React frontend.`},
+    {line: `• Passion for coding since early school years. Competed successfully in school, and then city level programming Olympiads using Pascal language.`},
+    {line: `• Dived deeper into Computer Science studies - giving me a real grounding in concepts and programming languages (C++, C, ASM to name just a few).`},
+    {line: `• My Bachelor degree saw me deliver LabView automation for a Laser Research Centre and an automated laser-induced damage measurement system.`},
+    {line: `• Post-graduation, I pursued IT as a career, building to several roles with HP partners and Hewlett Packard corporation itself. Here I covered a full range in software development, integration and automation, from stakeholder management to requirements-gathering, and designing products - to seeing customers smile and happily perform their roles using my code in production (JavaScript, Java, Jython, Basic, SQL, etc.).`},
+    {line: `• I saw the security field as an obvious evolution for me - constructing software applications less vulnerable to the actions of malicious actors, and instilling peace of mind for people using them that the tools I am building are safe for them and their companies. Through my security journey, I have interacted with multiple technologies and coding languages (multiple operating systems, CI/CD platforms, containers, service buses, TypeScript, Python, React, MongoDb, etc.).`},
+    {line: `• I joined Swyftx Crypto Exchange, and was enamoured with crypto and blockchain technology! Now I want to roll up my sleeves and get my hands dirty in the coding technologies for web3 to write the next chapter for the world with more automation and transparency!`},
+    {line: `• At present, I am working independently on projects with smart contracts on local and test blockchains using Solidity and interacting with them through the React frontend. Get in touch to see how we can work together, or have a chat to me about how I might fit a contract need or role.`},
   ], 
   aboutItems: [
     {label: 'Location', text: 'QLD, Australia', Icon: MapIcon},

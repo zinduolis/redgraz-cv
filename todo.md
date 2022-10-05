@@ -8,3 +8,4 @@ After clicking on Resume at the top the oranga highlight doesn't stay like with 
 Thicker lines for EDUCATION, WORK, SKILLS.
 Green color instead of orange everywhere and underscores under titles
 Add some pattern instead of white background.
+
