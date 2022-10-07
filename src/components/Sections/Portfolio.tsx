@@ -21,9 +21,9 @@ const Portfolio: FC = memo(() => {
               <div className="pb-6" key={`${title}-${index}`}>
                 <div
                   className={classNames(
-                    'relative h-28 w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
+                    'relative h-24 w-full overflow-hidden border-4 border-lime-600 rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
                   )}>
-                  <Image alt={title} layout="fill" placeholder="blur" src={image} />
+                  <Image alt={title} layout="intrinsic" placeholder="blur" src={image} />
                   <ItemOverlay item={item} />
                 </div>
               </div>
