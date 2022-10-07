@@ -17,7 +17,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/Sea_Landscape.webp';
 import porfolioImage1 from '../images/portfolio/1 - waveportal.png';
 // import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-// import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage2 from '../images/portfolio/2 - Flashloan.webp';
 // import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 // import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 // import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
@@ -293,8 +293,14 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'Flashloan foundation',
+    description: 'Solidity and JavaScript',
+    url: 'https://github.com/zinduolis/flashloan-foundation',
+    image: porfolioImage2,
+  },
+  {
     title: 'Wave Portal',
-    description: 'Smart contract written and deployed to Ethereum testnet with React frontend.',
+    description: 'Solidity and React',
     url: 'https://redgraz-waveportal.ilgakulnis.repl.co/',
     image: porfolioImage1,
   },
