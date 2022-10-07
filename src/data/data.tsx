@@ -18,7 +18,7 @@ import heroImage from '../images/Sea_Landscape.webp';
 import porfolioImage1 from '../images/portfolio/1 - waveportal.png';
 // import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/2 - Flashloan.webp';
-// import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage3 from '../images/portfolio/3-Matrix.webp';
 // import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 // import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 // import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
@@ -303,6 +303,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Solidity and React',
     url: 'https://redgraz-waveportal.ilgakulnis.repl.co/',
     image: porfolioImage1,
+  },
+  {
+    title: 'More Tasty code 🤤',
+    description: 'On GitHub',
+    url: 'https://github.com/zinduolis',
+    image: porfolioImage3,
   },
 ];
 
