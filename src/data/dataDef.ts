@@ -152,3 +152,11 @@ export interface Social {
   Icon: FC<IconProps>;
   href: string;
 }
+
+/**
+ * Hobbies
+ */
+
+export interface Hobbies {
+  content: JSX.Element;
+}

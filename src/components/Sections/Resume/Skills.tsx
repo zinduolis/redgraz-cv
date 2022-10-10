@@ -1,6 +1,8 @@
 import {FC, memo, PropsWithChildren, useMemo} from 'react';
 
 import {Skill as SkillType, SkillGroup as SkillGroupType} from '../../../data/dataDef';
+// import ethIcon from '%PUBLIC_URL%/assets/images/eth_icon.webp';
+{/* <img className="w-8 h-8 rounded-full" src={ethIcon} alt="ETH Icon" /> */}
 
 export const SkillGroup: FC<PropsWithChildren<{skillGroup: SkillGroupType}>> = memo(({skillGroup}) => {
   const {name, skills} = skillGroup;
@@ -24,6 +26,7 @@ export const Skill: FC<{skill: SkillType}> = memo(({skill}) => {
 
   return (
     <div className="flex flex-col">
+          
       <span className="ml-2 text-sm font-medium">{name}</span>
       <div className="h-5 w-full overflow-hidden rounded-full bg-neutral-300">
         <div className="h-full rounded-full bg-lime-600" style={{width: `${percentage}%`}} />

@@ -10,3 +10,22 @@ Thicker lines for EDUCATION, WORK, SKILLS.
 Add some pattern instead of white background.
 Update README
 
+Aaron:
+
+---DONE Start with 'Hello' in big letters and then put the rest in the smaller letters.
+
+---DONE Remove 'I aim', 'I write code..'
+
+---DONE One sentence 'Full Stack'
+
+---DONE Maybe keeping hobbies at the bottom. (Left what's available in the bottom of the AboutMe section)
+
+---DONE Education / Work / Skills put above the 'About Me'
+
+---DONE Portfolio above that.
+
+Skills as checkboxes
+
+---DONE Instead of the 2nd beach photo, some nice web3 photo
+
+---DONE Fill all 4 segments with feedback

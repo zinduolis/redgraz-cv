@@ -9,27 +9,13 @@ import {
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-//import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-// import TwitterIcon from '../components/Icon/TwitterIcon';
-//import heroImage from '../images/header-background.webp';
 import heroImage from '../images/Sea_Landscape.webp';
 import porfolioImage1 from '../images/portfolio/1 - waveportal.png';
-// import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/2 - Flashloan.webp';
 import porfolioImage3 from '../images/portfolio/3-Matrix.webp';
-// import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-// import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-// import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-// import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.webp';
 import testimonialImage from '../images/testimonial.webp';
-// import testimonialImage from '../images/Garden.jpg';
 import {
   About,
   ContactSection,
@@ -41,6 +27,7 @@ import {
   Social,
   TestimonialSection,
   TimelineItem,
+  Hobbies,
 } from './dataDef';
 
 /**
@@ -72,19 +59,15 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Red Graz.`,
+  name: `Hello 👋`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        as <strong className="text-stone-100">Freelance Web3 Developer - </strong> I aim to write the code that writes
+        I am Red Graz, <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
+        as <strong className="text-stone-100">Freelance Web3 Developer.</strong> I write the code that writes
         the next chapter for the world with more automation and transparency!
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you'll find me <strong className="text-stone-100"> {' '} surfing 🏄‍♂️ {' '}</strong>
-        or tending my beautiful {' '}
-        <strong className="text-stone-100">backyard garden 👨‍🌾</strong>.
-      </p>
+
     </>
   ),
   actions: [
@@ -438,8 +421,8 @@ export const testimonial: TestimonialSection = {
       image: '',
     },
     {
-      name: 'LinkedIn',
-      text: 'Heaps more feedback is available!',
+      name: 'Lead Solution Architect at Micro Focus',
+      text: 'Red Graz is a very thorough individual, Always ensuring that tasks are completed to ensure that customers of our team are aware of what we expect of them as well as what they should expect from us. Red Graz is incredibly knowledgeable across many disciplines and applies his knowledge learned elsewhere to all aspects of his work.',
       image: '',
     },
   ],
@@ -478,3 +461,19 @@ export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/zinduolis'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/Al-7866317/'},
 ];
+
+/**
+ * Hobies
+ * !!! At the moment this component is not used, just created for potentially being used in the future.
+ */
+export const hobbies: Hobbies = {
+  content: (
+    <>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        In my free time, you'll find me <strong className="text-stone-100"> {' '} surfing 🏄‍♂️ {' '}</strong>
+        or tending my beautiful {' '}
+        <strong className="text-stone-100">backyard garden 👨‍🌾</strong>.
+      </p>
+    </>
+  ),
+};
