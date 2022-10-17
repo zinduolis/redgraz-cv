@@ -9,6 +9,7 @@ Thicker lines for EDUCATION, WORK, SKILLS.
 ---DONE Green color instead of orange everywhere and underscores under titles (lime-600)
 Add some pattern instead of white background.
 Update README
+Fix the 'Contact' button at the top. Do I need it at all?
 
 Aaron:
 

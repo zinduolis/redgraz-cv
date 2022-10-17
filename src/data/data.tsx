@@ -14,6 +14,7 @@ import porfolioImage1 from '../images/portfolio/1 - waveportal.png';
 import porfolioImage2 from '../images/portfolio/2 - Flashloan.webp';
 import porfolioImage3 from '../images/portfolio/3-Matrix.webp';
 import porfolioImage4 from '../images/portfolio/4 - randomnfts.webp';
+import porfolioImage5 from '../images/portfolio/5 - ethernautHack.webp';
 import profilepic from '../images/profilepic.webp';
 import heroImage from '../images/Sea_Landscape.webp';
 import testimonialImage from '../images/testimonial.webp';
@@ -293,6 +294,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Solidity and React',
     url: 'https://redgraz-waveportal.ilgakulnis.repl.co/',
     image: porfolioImage1,
+  },
+  {
+    title: 'Hacking Ethernaut',
+    description: 'Smart Contract Security',
+    url: 'https://github.com/zinduolis/attackEthernaut',
+    image: porfolioImage5,
   },
   {
     title: 'More Tasty code 🤤',
