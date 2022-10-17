@@ -10,24 +10,25 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import heroImage from '../images/Sea_Landscape.webp';
 import porfolioImage1 from '../images/portfolio/1 - waveportal.png';
 import porfolioImage2 from '../images/portfolio/2 - Flashloan.webp';
 import porfolioImage3 from '../images/portfolio/3-Matrix.webp';
+import porfolioImage4 from '../images/portfolio/4 - randomnfts.webp';
 import profilepic from '../images/profilepic.webp';
+import heroImage from '../images/Sea_Landscape.webp';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
   ContactType,
   Hero,
+  Hobbies,
   HomepageMeta,
   PortfolioItem,
   SkillGroup,
   Social,
   TestimonialSection,
   TimelineItem,
-  Hobbies,
 } from './dataDef';
 
 /**
@@ -275,6 +276,12 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+  {
+    title: 'Random Word NFT Minting',
+    description: 'Solidity and JavaScript',
+    url: 'https://randomnfts.vercel.app/',
+    image: porfolioImage4,
+  },
   {
     title: 'Flashloan foundation',
     description: 'Solidity and JavaScript',
