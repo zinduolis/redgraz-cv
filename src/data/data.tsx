@@ -15,6 +15,7 @@ import porfolioImage2 from '../images/portfolio/2 - Flashloan.webp';
 import porfolioImage3 from '../images/portfolio/3-Matrix.webp';
 import porfolioImage4 from '../images/portfolio/4 - randomnfts.webp';
 import porfolioImage5 from '../images/portfolio/5 - ethernautHack.webp';
+import porfolioImage6 from '../images/portfolio/6 - solanaSurf.webp';
 import profilepic from '../images/profilepic.webp';
 import heroImage from '../images/Sea_Landscape.webp';
 import testimonialImage from '../images/testimonial.webp';
@@ -99,7 +100,7 @@ export const aboutData: About = {
     {line: `• Post-graduation, I pursued IT as a career, building to several roles with HP partners and Hewlett Packard corporation itself. Here I covered a full range in software development, integration and automation, from stakeholder management to requirements-gathering, and designing products - to seeing customers smile and happily perform their roles using my code in production (JavaScript, Java, Jython, Basic, SQL, etc.).`},
     {line: `• I saw the security field as an obvious evolution for me - constructing software applications less vulnerable to the actions of malicious actors, and instilling peace of mind for people using them that the tools I am building are safe for them and their companies. Through my security journey, I have interacted with multiple technologies and coding languages (multiple operating systems, CI/CD platforms, containers, service buses, TypeScript, Python, React, MongoDb, etc.).`},
     {line: `• I joined Swyftx Crypto Exchange, and was enamoured with crypto and blockchain technology! Now I want to roll up my sleeves and get my hands dirty in the coding technologies for web3 to write the next chapter for the world with more automation and transparency!`},
-    {line: `• At present, I am working independently on projects with smart contracts on local and test blockchains using Solidity and interacting with them through the React frontend. Get in touch to see how we can work together, or have a chat to me about how I might fit a contract need or role.`},
+    {line: `• At present, I am working independently on projects with smart contracts on local, dev and test blockchains involving full stack development. Get in touch to see how we can work together, or have a chat to me about how I might fit a contract need or role.`},
   ], 
   aboutItems: [
     {label: 'Location', text: 'QLD, Australia', Icon: MapIcon},
@@ -183,6 +184,10 @@ export const skills: SkillGroup[] = [
       {
         name: 'C',
         level: 8,
+      },
+      {
+        name: 'rust',
+        level: 5,
       },
     ],
   },
@@ -277,6 +282,12 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+  {
+    title: 'Solana GIF NFTs',
+    description: 'Rust and React',
+    url: 'https://solanasurf.vercel.app/',
+    image: porfolioImage6,
+  },
   {
     title: 'Random Word NFT Minting',
     description: 'Solidity and JavaScript',
@@ -376,6 +387,9 @@ export const experience: TimelineItem[] = [
         </p>
         <p>  
           • Hacking Solidity Smart Contracts through Ethernaut. 
+        </p>
+        <p>  
+          • Building on Solana using JavaScript, rust and anchor. 
         </p>
 </>
     ),
