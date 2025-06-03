@@ -1,11 +1,12 @@
 import {StaticImageData} from 'next/image';
-import {FC, SVGProps} from 'react';
+import {FC, SVGProps, ReactNode} from 'react';
 
 import {IconProps} from '../components/Icon/Icon';
 
 export interface HomepageMeta {
   title: string;
   description: string;
+  children?: ReactNode;
   ogImageUrl?: string;
   twitterCardType?: 'summary' | 'summary_large';
   twitterTitle?: string;
@@ -21,7 +22,7 @@ export interface HomepageMeta {
  * Hero section
  */
 export interface Hero {
-  imageSrc: string;
+  imageSrc: string | StaticImageData;
   name: string;
   description: JSX.Element;
   actions: HeroActionItem[];
@@ -31,14 +32,14 @@ interface HeroActionItem {
   href: string;
   text: string;
   primary?: boolean;
-  Icon?: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+  Icon?: FC<SVGProps<SVGSVGElement>> | ((props: SVGProps<SVGSVGElement>) => JSX.Element);
 }
 
 /**
  * About section
  */
 export interface About {
-  profileImageSrc?: string;
+  profileImageSrc?: string | StaticImageData;
   description: DescriptionLine[];
   aboutItems: AboutItem[];
 }
@@ -50,7 +51,7 @@ export interface DescriptionLine {
 export interface AboutItem {
   label: string;
   text: string;
-  Icon?: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+  Icon?: FC<SVGProps<SVGSVGElement>> | ((props: SVGProps<SVGSVGElement>) => JSX.Element);
 }
 
 /**
@@ -59,7 +60,7 @@ export interface AboutItem {
 export interface Stat {
   title: string;
   value: number;
-  Icon?: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+  Icon?: FC<SVGProps<SVGSVGElement>> | ((props: SVGProps<SVGSVGElement>) => JSX.Element);
 }
 
 /**

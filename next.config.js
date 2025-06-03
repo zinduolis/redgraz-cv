@@ -2,6 +2,7 @@
 
 // https://github.com/vercel/next.js/blob/master/packages/next/next-server/server/config.ts
 const nextConfig = {
+  output: 'standalone',
   webpack: config => {
     const oneOfRule = config.module.rules.find(rule => rule.oneOf);
 
@@ -27,6 +28,7 @@ const nextConfig = {
   strictMode: true,
   swcMinify: true,
   trailingSlash: false,
+  output: 'standalone',
   images: {
     domains: ['images.unsplash.com', 'source.unsplash.com'],
   },
