@@ -1,5 +1,5 @@
 import {Dialog, Transition} from '@headlessui/react';
-import {MenuAlt3Icon} from '@heroicons/react/outline';
+import {Bars3Icon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Link from 'next/link';
 import {FC, Fragment, memo, useCallback, useMemo, useState} from 'react';
@@ -72,7 +72,7 @@ const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}
           aria-label="Menu Button"
           className="fixed top-2 right-2 z-40 rounded-md bg-lime-600 p-2 ring-offset-gray-800/60 hover:bg-lime-600 focus:outline-none focus:ring-0 focus-visible:ring-2 focus-visible:ring-lime-600 focus-visible:ring-offset-2 sm:hidden"
           onClick={toggleOpen}>
-          <MenuAlt3Icon className="h-8 w-8 text-white" />
+          <Bars3Icon className="h-8 w-8 text-white" />
           <span className="sr-only">Open sidebar</span>
         </button>
         <Transition.Root as={Fragment} show={isOpen}>
@@ -85,7 +85,7 @@ const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}
               leave="transition-opacity ease-linear duration-300"
               leaveFrom="opacity-100"
               leaveTo="opacity-0">
-              <Dialog.Overlay className="fixed inset-0 bg-stone-900 bg-opacity-75" />
+              <div className="fixed inset-0 bg-stone-900 bg-opacity-75" />
             </Transition.Child>
             <Transition.Child
               as={Fragment}

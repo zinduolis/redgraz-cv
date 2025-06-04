@@ -4,6 +4,19 @@ Big shoutout and thank you to original template creator: https://github.com/tbak
 
 ![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true 'ReactJS Resume Website Template')
 
+## Table of Contents
+
+- [Description](#description)
+- [Make it Your Own!](#make-it-your-own)
+  - [1. Make sure you have what you need](#1-make-sure-you-have-what-you-need)
+  - [2. Fork and download this repo (and star if you like!)](#2-fork-and-download-this-repo-and-star-if-you-like)
+  - [3. Install dependencies and run](#3-install-dependencies-and-run)
+  - [4. Run with Docker Compose](#4-run-with-docker-compose)
+  - [5. Customize the data to make it your own](#5-customize-the-data-to-make-it-your-own)
+  - [6. Hook up contact form](#6-hook-up-contact-form)
+  - [7. Make any other changes you like](#7-make-any-other-changes-you-like)
+  - [8. Deploy to Vercel and enjoy your new Resume Website](#8-deploy-to-vercel-and-enjoy-your-new-resume-website)
+
 ## Description
 
 This is a React based personal resume website template. Built with typescript on the Next.js framework, styled with Tailwind css, and populated with data from a single file, you can easily create, customize and host your own personal website in minutes. Even better, the site is fully mobile-optimized and server-side rendered to ensure fast loading and a clean UI on any device. Read on to learn how to make it your own.
@@ -22,17 +35,33 @@ Next, find the `Fork` button in the top right of this page. This will allow you 
 
 Once you have your own copy of this repo forked and downloaded, open the folder in your favorite terminal and run `yarn install` to install dependencies. Following this, run `yarn dev` to run the project. In your terminal you should be given the url of the running instance (usually http://localhost:3000 unless you have something else running).
 
-### 4. Customize the data to make it your own
+### 4. Run with Docker Compose
+
+Alternatively, you can run the application using Docker Compose if you have Docker installed on your machine. This method doesn't require Node.js or Yarn to be installed locally.
+
+1. Make sure you have [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) installed on your machine.
+2. Navigate to the project directory in your terminal.
+3. Run the following command to build and start the application:
+   ```bash
+   docker-compose up --build
+   ```
+4. The application will be available at `http://localhost:3000`.
+5. To stop the application, press `Ctrl+C` in the terminal or run:
+   ```bash
+   docker-compose down
+   ```
+
+### 5. Customize the data to make it your own
 
 All of the data for the site is driven via a file at `/src/data/data.tsx`. This is where you'll find the existing content, and updating the values here will be reflected on the site. If you have the site running as described above, you should see these changes reflected on save. The data types for all of these items are given in the same folder in the `dataDef.ts` file. Example images can be found at `src/images/` and are imported in the data file. To change, simply update these images using the same name and location, or add new images and update the imports. 
 
-### 5. Hook up contact form
+### 6. Hook up contact form
 Due to the variety of options available for contact form providers, I've hooked up the contact form only so far as handling inputs and state. Form submission and the actual sending of the email is open to your own implementation. My personal recommendation for email provider is [Sendgrid.](https://sendgrid.com/)
 
-### 6. Make any other changes you like
+### 7. Make any other changes you like
 
 Of course, all of the code is there and nothing is hidden from you so if you would like to make any other styling/data changes, feel free!
 
-### 7. Deploy to Vercel and enjoy your new Resume Website
+### 8. Deploy to Vercel and enjoy your new Resume Website
 
 Deploying your new site to Vercel is simple, and can be done by following their guide [here.](https://vercel.com/guides/deploying-nextjs-with-vercel) When you're all done and the build succeeds, you should be given a url for your live site, go there and you'll see your new personal resume website! Congratulations!

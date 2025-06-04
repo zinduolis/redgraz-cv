@@ -1,4 +1,4 @@
-import {ChevronDownIcon} from '@heroicons/react/outline';
+import {ChevronDownIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo} from 'react';
@@ -16,8 +16,8 @@ const Hero: FC = memo(() => {
         <Image
           alt={`${name}-image`}
           className="absolute z-0"
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{objectFit: 'cover'}}
           placeholder="blur"
           priority
           src={imageSrc}
