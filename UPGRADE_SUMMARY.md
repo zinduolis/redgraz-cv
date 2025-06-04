@@ -1,18 +1,18 @@
-# Node.js 24 Upgrade Summary
+# Node.js 22 Upgrade Summary
 
 ## Overview
-Successfully updated the project to use Node.js 24 with latest compatible dependencies.
+Successfully updated the project to use Node.js 22 with latest compatible dependencies.
 
 ## Key Changes Made
 
 ### 1. Docker Configuration
-- **Dockerfile**: Updated from `node:18-alpine` to `node:24-alpine`
+- **Dockerfile**: Updated from `node:18-alpine` to `node:22-alpine`
 - **Multi-stage build**: Implemented optimized Docker build process
 - **Standalone output**: Enabled Next.js standalone mode for better Docker support
 - **docker-compose.yml**: Enhanced with restart policy and proper environment variables
 
 ### 2. Package Dependencies
-- **Node.js**: Upgraded to version 24
+- **Node.js**: Upgraded to version 22
 - **Next.js**: Upgraded from v12.1.0 to v15.1.0
 - **React**: Updated to v18.3.1
 - **TypeScript**: Upgraded from 4.5.5 to 5.7.2

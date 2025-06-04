@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "private": true,
   "engines": {
-    "node": ">=24.0.0",
+    "node": ">=22.0.0",
     "yarn": ">=1.22.0"
   },
   "homepage": "https://zinduolis.github.io/redgraz-cv/",
@@ -19,7 +19,6 @@
   "dependencies": {
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^2.2.0",
-    "autoprefixer": "^10.4.20",
     "classnames": "^2.5.1",
     "next": "^15.1.0",
     "react": "^18.3.1",
@@ -32,14 +31,14 @@
     "@tailwindcss/typography": "^0.5.15",
     "@types/node": "^22.10.1",
     "@types/react": "^18.3.18",
-    "@types/tailwindcss": "^3.1.0",
     "@types/webpack-env": "^1.18.5",
     "@typescript-eslint/eslint-plugin": "^8.18.1",
     "@typescript-eslint/parser": "^8.18.1",
+    "autoprefixer": "^10.4.21",
     "cssnano": "^7.0.6",
     "eslint": "^9.17.0",
     "eslint-config-next": "^15.1.0",
-    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-module-resolver": "^1.5.0",
@@ -47,7 +46,7 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-memo": "^0.0.3",
-    "eslint-plugin-react-native": "^4.1.0",
+    "eslint-plugin-react-native": "^5.0.0",
     "eslint-plugin-simple-import-sort": "^12.1.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "postcss": "^8.5.1",
@@ -55,15 +54,17 @@
     "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.9",
     "sass": "^1.82.0",
-    "sort-package-json": "^2.12.0",
+    "sort-package-json": "^3.2.1",
     "stylelint": "^16.12.0",
-    "stylelint-config-recommended": "^14.0.1",
-    "stylelint-order": "^6.0.4",
+    "stylelint-config-recommended": "^16.0.0",
+    "stylelint-order": "^7.0.0",
     "stylelint-prettier": "^5.0.2",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.2"
   },
   "resolutions": {
-    "autoprefixer": "10.4.20"
+    "autoprefixer": "10.4.21",
+    "braces": "^3.0.3",
+    "micromatch": "^4.0.8"
   }
 }
