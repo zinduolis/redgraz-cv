@@ -46,12 +46,12 @@ const Portfolio: FC = memo(() => {
               <div className="pb-6" key={`${title}-${index}`}>
                 <div
                   className={classNames(
-                    'relative h-auto w-full overflow-hidden border-4 border-lime-600 rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
-                    'cursor-pointer',
+                    'relative w-full overflow-hidden border border-neutral-600 rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
+                    'cursor-pointer hover:border-neutral-400 transition-colors duration-300',
                   )}
                   onClick={() => handleImageClick(index)}
                 >
-                  <Image alt={title} layout="responsive" placeholder="blur" src={image} />
+                  <Image alt={title} src={image} className="w-full h-auto" placeholder="blur" />
                   <ItemOverlay item={item} />
                 </div>
               </div>

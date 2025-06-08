@@ -68,11 +68,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am Red Graz, <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        as <strong className="text-stone-100">Freelance Web3 Developer.</strong> I write the code that writes
-        the next chapter for the world with more automation and transparency!
+        🚀 I'm a <strong className="text-stone-100">DevSurfOps engineer</strong> passionate about helping startups secure their infrastructure and streamline their development processes. When I'm not diving deep into code or fortifying systems, you'll find me catching waves on my surfboard 🏄‍♂️ or working on exciting side projects that fuel my love for innovation! 💻✨
       </p>
-
     </>
   ),
   actions: [
@@ -121,53 +118,94 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'DevSecOps & Cloud',
     skills: [
       {
-        name: 'Lithuanian',
-        level: 10,
-      },
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'Russian',
+        name: 'AWS',
         level: 8,
       },
       {
-        name: 'Polish',
-        level: 6,
+        name: 'Docker',
+        level: 8,
       },
       {
-        name: 'German',
-        level: 5,
+        name: 'Kubernetes',
+        level: 7,
+      },
+      {
+        name: 'GitHub Actions',
+        level: 9,
+      },
+      {
+        name: 'GitLab CI/CD',
+        level: 7,
+      },
+      {
+        name: 'Terraform',
+        level: 6,
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Security & Infrastructure',
     skills: [
       {
-        name: 'React',
+        name: 'OWASP ASVS',
+        level: 9,
+      },
+      {
+        name: 'Penetration Testing',
+        level: 8,
+      },
+      {
+        name: 'Threat Modeling',
+        level: 8,
+      },
+      {
+        name: 'NIST Framework',
         level: 7,
       },
       {
-        name: 'Typescript',
+        name: 'GDPR Compliance',
+        level: 7,
+      },
+      {
+        name: 'ISO 27001',
+        level: 6,
+      },
+    ],
+  },
+  {
+    name: 'Frontend Development',
+    skills: [
+      {
+        name: 'React',
+        level: 8,
+      },
+      {
+        name: 'TypeScript',
+        level: 8,
+      },
+      {
+        name: 'Next.js',
+        level: 7,
+      },
+      {
+        name: 'JavaScript',
+        level: 9,
+      },
+      {
+        name: 'Tailwind CSS',
         level: 7,
       },
       {
         name: 'Angular',
         level: 6,
       },
-      {
-        name: 'Javascript',
-        level: 8,
-      },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Backend & Blockchain',
     skills: [
       {
         name: 'Node.js',
@@ -178,105 +216,70 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'C++',
-        level: 6,
-      },
-      {
-        name: 'Java',
-        level: 5,
-      },
-      {
-        name: 'C',
-        level: 8,
-      },
-      {
-        name: 'rust',
-        level: 5,
-      },
-    ],
-  },
-  {
-    name: 'Scripting',
-    skills: [
-      {
-        name: 'Javascript',
-        level: 9,
-      },
-      {
         name: 'Python',
         level: 8,
       },
       {
-        name: 'Jython',
+        name: 'C++',
         level: 7,
       },
       {
-        name: 'Basic',
+        name: 'Java',
+        level: 6,
+      },
+      {
+        name: 'Rust',
         level: 5,
       },
     ],
   },
   {
-    name: 'Database',
+    name: 'Database & Analytics',
     skills: [
       {
         name: 'MongoDB',
-        level: 5,
+        level: 6,
       },
       {
-        name: 'SQL',
+        name: 'PostgreSQL',
         level: 8,
       },
       {
         name: 'Oracle',
         level: 7,
       },
-    ],
-  },
-  {
-    name: 'Virtualisation',
-    skills: [
       {
-        name: 'Docker',
+        name: 'Redis',
         level: 6,
       },
       {
-        name: 'Kubernetes',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'CI/CD',
-    skills: [
-      {
-        name: 'GitHub',
-        level: 9,
-      },
-      {
-        name: 'GitLab',
-        level: 6,
-      },
-      {
-        name: 'Buildkite',
+        name: 'ElasticSearch',
         level: 5,
       },
     ],
   },
   {
-    name: 'Web Hosting',
+    name: 'AI & Machine Learning',
     skills: [
       {
-        name: 'Vercel',
+        name: 'ChatGPT/LLMs',
         level: 8,
       },
       {
-        name: 'Replit',
+        name: 'Claude',
+        level: 7,
+      },
+      {
+        name: 'AI Code Generation',
         level: 8,
       },
       {
-        name: 'GitHub Pages',
+        name: 'Prompt Engineering',
         level: 8,
+      },
+      {
+        name: 'AutoML',
+        level: 5,
       },
     ],
   },
@@ -305,6 +308,12 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
+    date: '2023',
+    location: 'Amazon Web Services',
+    title: 'AWS Certified Cloud Practitioner',
+    content: <p>Foundational cloud computing knowledge and AWS services expertise for modern infrastructure solutions.</p>,
+  },
+  {
     date: '2020',
     location: 'SANS Institute',
     title: 'GIAC Security Essentials Certified',
@@ -313,8 +322,8 @@ export const education: TimelineItem[] = [
   {
     date: '2019',
     location: 'ISC2',
-    title: 'CISSP Certified',
-    content: <p>Obtaining the CISSP accreditation demonstrated I had what it it takes to effectively design, implement and manage best-in-class cybersecurity programs.</p>,
+    title: 'Retired - CISSP Certified',
+    content: <p>Previously demonstrated ability to effectively design, implement and manage best-in-class cybersecurity programs.</p>,
   },
   {
     date: '2018',
@@ -325,14 +334,14 @@ export const education: TimelineItem[] = [
   {
     date: '2012',
     location: 'HP',
-    title: 'Accredited Integration Specialist Service Manager v9',
+    title: 'HP Accredited Integration Specialist SM v9',
     content: <p>Skills and experience required to implement and integrate HP Service Manager solutions.</p>,
   },
   {
     date: '2010',
     location: 'HP',
-    title: 'Certified Instructor',
-    content: <p>Skills and experience required to train people on HP products.</p>,
+    title: 'HP Certified Instructor',
+    content: <p>Skills and experience required to train people on HP products and solutions.</p>,
   },
   {
     date: '2008',
@@ -344,7 +353,7 @@ export const education: TimelineItem[] = [
     date: '2007',
     location: 'Vilnius University, Lithuania',
     title: 'Bachelor (Computer Science / Physics)',
-    content: <p>Course that taught me more in depth programming and physics.</p>,
+    content: <p>Comprehensive education in computer science fundamentals and physics principles.</p>,
   },
 ];
 
