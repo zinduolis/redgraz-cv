@@ -10,6 +10,8 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
+import YNDMDashboard from '../images/portfolio/YNDM-Dashboard.webp';
+import YNDMLogin from '../images/portfolio/YNDM-Login.webp';
 import porfolioImage1 from '../images/portfolio/1 - waveportal.png';
 import porfolioImage2 from '../images/portfolio/2 - Flashloan.webp';
 import porfolioImage3 from '../images/portfolio/3-Matrix.webp';
@@ -66,11 +68,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am Red Graz, <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        as <strong className="text-stone-100">Freelance Web3 Developer.</strong> I write the code that writes
-        the next chapter for the world with more automation and transparency!
+        🚀 I'm a <strong className="text-stone-100">DevSurfOps engineer</strong> passionate about helping startups secure their infrastructure and streamline their development processes. When I'm not diving deep into code or fortifying systems, you'll find me catching waves on my surfboard 🏄‍♂️ or working on exciting side projects that fuel my love for innovation! 💻✨
       </p>
-
     </>
   ),
   actions: [
@@ -94,13 +93,15 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: [
-    {line: `• Passion for coding since early school years. Competed successfully in school, and then city level programming Olympiads using Pascal language.`},
-    {line: `• Dived deeper into Computer Science studies - giving me a real grounding in concepts and programming languages (C++, C, ASM to name just a few).`},
-    {line: `• My Bachelor degree saw me deliver LabView automation for a Laser Research Centre and an automated laser-induced damage measurement system.`},
-    {line: `• Post-graduation, I pursued IT as a career, building to several roles with HP partners and Hewlett Packard corporation itself. Here I covered a full range in software development, integration and automation, from stakeholder management to requirements-gathering, and designing products - to seeing customers smile and happily perform their roles using my code in production (JavaScript, Java, Jython, Basic, SQL, etc.).`},
-    {line: `• I saw the security field as an obvious evolution for me - constructing software applications less vulnerable to the actions of malicious actors, and instilling peace of mind for people using them that the tools I am building are safe for them and their companies. Through my security journey, I have interacted with multiple technologies and coding languages (multiple operating systems, CI/CD platforms, containers, service buses, TypeScript, Python, React, MongoDb, etc.).`},
-    {line: `• I joined Swyftx Crypto Exchange, and was enamoured with crypto and blockchain technology! Now I want to roll up my sleeves and get my hands dirty in the coding technologies for web3 to write the next chapter for the world with more automation and transparency!`},
-    {line: `• At present, I am working independently on projects with smart contracts on local, dev and test blockchains involving full stack development. Get in touch to see how we can work together, or have a chat to me about how I might fit a contract need or role.`},
+    {line: `• Strong foundation in computer science with early achievements in programming competitions, followed by formal education covering C++, C, and Assembly.`},
+    {line: `• Developed automation systems using LabView for laser research during bachelor's studies.`},
+    {line: `• Built extensive software development experience at HP and partners, working across full development lifecycle using JavaScript, Java, Jython, and SQL.`},
+    {line: `• Transitioned to Application Security, specialising in secure software development across various technologies (CI/CD, containers, TypeScript, Python, React, MongoDB).`},
+    {line: `• Led security initiatives at Swyftx as founding security member, growing team from 1 to 20+ while focusing on application security.`},
+    {line: `• Gained blockchain expertise through smart contract development using Solidity and React frontend integration.`},
+    {line: `• Drove security awareness and best practices at Officeworks through implementation of security scanning tools and threat assessments.`},
+    {line: `• Enhanced SSDLC maturity at Belong through stakeholder engagement and security risk mitigation.`},
+    {line: `• Currently helping multiple startups with DevSecOps and working on my own coding projects.`},
   ], 
   aboutItems: [
     {label: 'Location', text: 'QLD, Australia', Icon: MapIcon},
@@ -117,53 +118,94 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'DevSecOps & Cloud',
     skills: [
       {
-        name: 'Lithuanian',
-        level: 10,
-      },
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'Russian',
+        name: 'AWS',
         level: 8,
       },
       {
-        name: 'Polish',
-        level: 6,
+        name: 'Docker',
+        level: 8,
       },
       {
-        name: 'German',
-        level: 5,
+        name: 'Kubernetes',
+        level: 7,
+      },
+      {
+        name: 'GitHub Actions',
+        level: 9,
+      },
+      {
+        name: 'GitLab CI/CD',
+        level: 7,
+      },
+      {
+        name: 'Terraform',
+        level: 6,
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Security & Infrastructure',
     skills: [
       {
-        name: 'React',
+        name: 'OWASP ASVS',
+        level: 9,
+      },
+      {
+        name: 'Penetration Testing',
+        level: 8,
+      },
+      {
+        name: 'Threat Modeling',
+        level: 8,
+      },
+      {
+        name: 'NIST Framework',
         level: 7,
       },
       {
-        name: 'Typescript',
+        name: 'GDPR Compliance',
+        level: 7,
+      },
+      {
+        name: 'ISO 27001',
+        level: 6,
+      },
+    ],
+  },
+  {
+    name: 'Frontend Development',
+    skills: [
+      {
+        name: 'React',
+        level: 8,
+      },
+      {
+        name: 'TypeScript',
+        level: 8,
+      },
+      {
+        name: 'Next.js',
+        level: 7,
+      },
+      {
+        name: 'JavaScript',
+        level: 9,
+      },
+      {
+        name: 'Tailwind CSS',
         level: 7,
       },
       {
         name: 'Angular',
         level: 6,
       },
-      {
-        name: 'Javascript',
-        level: 8,
-      },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Backend & Blockchain',
     skills: [
       {
         name: 'Node.js',
@@ -174,105 +216,70 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'C++',
-        level: 6,
-      },
-      {
-        name: 'Java',
-        level: 5,
-      },
-      {
-        name: 'C',
-        level: 8,
-      },
-      {
-        name: 'rust',
-        level: 5,
-      },
-    ],
-  },
-  {
-    name: 'Scripting',
-    skills: [
-      {
-        name: 'Javascript',
-        level: 9,
-      },
-      {
         name: 'Python',
         level: 8,
       },
       {
-        name: 'Jython',
+        name: 'C++',
         level: 7,
       },
       {
-        name: 'Basic',
+        name: 'Java',
+        level: 6,
+      },
+      {
+        name: 'Rust',
         level: 5,
       },
     ],
   },
   {
-    name: 'Database',
+    name: 'Database & Analytics',
     skills: [
       {
         name: 'MongoDB',
-        level: 5,
+        level: 6,
       },
       {
-        name: 'SQL',
+        name: 'PostgreSQL',
         level: 8,
       },
       {
         name: 'Oracle',
         level: 7,
       },
-    ],
-  },
-  {
-    name: 'Virtualisation',
-    skills: [
       {
-        name: 'Docker',
+        name: 'Redis',
         level: 6,
       },
       {
-        name: 'Kubernetes',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'CI/CD',
-    skills: [
-      {
-        name: 'GitHub',
-        level: 9,
-      },
-      {
-        name: 'GitLab',
-        level: 6,
-      },
-      {
-        name: 'Buildkite',
+        name: 'ElasticSearch',
         level: 5,
       },
     ],
   },
   {
-    name: 'Web Hosting',
+    name: 'AI & Machine Learning',
     skills: [
       {
-        name: 'Vercel',
+        name: 'ChatGPT/LLMs',
         level: 8,
       },
       {
-        name: 'Replit',
+        name: 'Claude',
+        level: 7,
+      },
+      {
+        name: 'AI Code Generation',
         level: 8,
       },
       {
-        name: 'GitHub Pages',
+        name: 'Prompt Engineering',
         level: 8,
+      },
+      {
+        name: 'AutoML',
+        level: 5,
       },
     ],
   },
@@ -283,40 +290,16 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Solana GIF NFTs',
-    description: 'Rust and React',
-    url: 'https://solanasurf.vercel.app/',
-    image: porfolioImage6,
+    title: 'YNDM Login',
+    description: 'Login page for Your Next Digital Me (YNDM) application.',
+    url: '', // Add URL if available
+    image: YNDMLogin,
   },
   {
-    title: 'Random Word NFT Minting',
-    description: 'Solidity and JavaScript',
-    url: 'https://randomnfts.vercel.app/',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Flashloan foundation',
-    description: 'Solidity and JavaScript',
-    url: 'https://github.com/zinduolis/flashloan-foundation',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Wave Portal',
-    description: 'Solidity and React',
-    url: 'https://redgraz-waveportal.ilgakulnis.repl.co/',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Hacking Ethernaut',
-    description: 'Smart Contract Security',
-    url: 'https://github.com/zinduolis/attackEthernaut',
-    image: porfolioImage5,
-  },
-  {
-    title: 'More Tasty code 🤤',
-    description: 'On GitHub',
-    url: 'https://github.com/zinduolis',
-    image: porfolioImage3,
+    title: 'YNDM Dashboard',
+    description: 'Dashboard for Your Next Digital Me (YNDM) application.',
+    url: '', // Add URL if available
+    image: YNDMDashboard,
   },
 ];
 
@@ -324,6 +307,12 @@ export const portfolioItems: PortfolioItem[] = [
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
 export const education: TimelineItem[] = [
+  {
+    date: '2023',
+    location: 'Amazon Web Services',
+    title: 'AWS Certified Cloud Practitioner',
+    content: <p>Foundational cloud computing knowledge and AWS services expertise for modern infrastructure solutions.</p>,
+  },
   {
     date: '2020',
     location: 'SANS Institute',
@@ -333,8 +322,8 @@ export const education: TimelineItem[] = [
   {
     date: '2019',
     location: 'ISC2',
-    title: 'CISSP Certified',
-    content: <p>Obtaining the CISSP accreditation demonstrated I had what it it takes to effectively design, implement and manage best-in-class cybersecurity programs.</p>,
+    title: 'Retired - CISSP Certified',
+    content: <p>Previously demonstrated ability to effectively design, implement and manage best-in-class cybersecurity programs.</p>,
   },
   {
     date: '2018',
@@ -345,14 +334,14 @@ export const education: TimelineItem[] = [
   {
     date: '2012',
     location: 'HP',
-    title: 'Accredited Integration Specialist Service Manager v9',
+    title: 'HP Accredited Integration Specialist SM v9',
     content: <p>Skills and experience required to implement and integrate HP Service Manager solutions.</p>,
   },
   {
     date: '2010',
     location: 'HP',
-    title: 'Certified Instructor',
-    content: <p>Skills and experience required to train people on HP products.</p>,
+    title: 'HP Certified Instructor',
+    content: <p>Skills and experience required to train people on HP products and solutions.</p>,
   },
   {
     date: '2008',
@@ -364,7 +353,7 @@ export const education: TimelineItem[] = [
     date: '2007',
     location: 'Vilnius University, Lithuania',
     title: 'Bachelor (Computer Science / Physics)',
-    content: <p>Course that taught me more in depth programming and physics.</p>,
+    content: <p>Comprehensive education in computer science fundamentals and physics principles.</p>,
   },
 ];
 

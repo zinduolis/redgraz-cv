@@ -71,6 +71,7 @@ export interface Skill {
   name: string;
   level: number;
   max?: number;
+  Icon?: FC<SVGProps<SVGSVGElement>> | ((props: SVGProps<SVGSVGElement>) => JSX.Element);
 }
 
 export interface SkillGroup {
