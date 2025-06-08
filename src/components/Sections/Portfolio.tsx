@@ -36,37 +36,39 @@ const Portfolio: FC = memo(() => {
   };
 
   return (
-    <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
-      <div className="flex flex-col gap-y-8">
-        <h2 className="self-center text-xl font-bold text-white">Currently working on a Finance Tracking App</h2>
-        <div className=" w-full columns-1 md:columns-2 lg:columns-2">
-          {portfolioItems.map((item, index) => {
-            const {title, image} = item;
-            return (
-              <div className="pb-6" key={`${title}-${index}`}>
-                <div
-                  className={classNames(
-                    'relative w-full overflow-hidden border border-neutral-600 rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
-                    'cursor-pointer hover:border-neutral-400 transition-colors duration-300',
-                  )}
-                  onClick={() => handleImageClick(index)}
-                >
-                  <Image alt={title} src={image} className="w-full h-auto" placeholder="blur" />
-                  <ItemOverlay item={item} />
+    <Section className="" sectionId={SectionId.Portfolio}>
+      <div className="rounded-xl bg-gray-800/40 p-6 shadow-lg backdrop-blur-sm">
+        <div className="flex flex-col gap-y-8">
+          <h2 className="self-center text-xl font-bold text-white">Currently working on a Finance Tracking App</h2>
+          <div className=" w-full columns-1 md:columns-2 lg:columns-2">
+            {portfolioItems.map((item, index) => {
+              const {title, image} = item;
+              return (
+                <div className="pb-6" key={`${title}-${index}`}>
+                  <div
+                    className={classNames(
+                      'relative w-full overflow-hidden border border-neutral-600 rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
+                      'cursor-pointer hover:border-neutral-400 transition-colors duration-300',
+                    )}
+                    onClick={() => handleImageClick(index)}
+                  >
+                    <Image alt={title} src={image} className="w-full h-auto" placeholder="blur" />
+                    <ItemOverlay item={item} />
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
+        <Lightbox
+          open={open}
+          close={() => setOpen(false)}
+          slides={images}
+          index={currentIndex}
+          plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+          carousel={{finite: true}} // Correct way to disable endless looping
+        />
       </div>
-      <Lightbox
-        open={open}
-        close={() => setOpen(false)}
-        slides={images}
-        index={currentIndex}
-        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
-        carousel={{finite: true}} // Correct way to disable endless looping
-      />
     </Section>
   );
 });

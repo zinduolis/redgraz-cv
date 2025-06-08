@@ -31,7 +31,9 @@ const Page: NextPage<HomepageMeta> = memo(({children, title, description}) => {
         <meta content={title} name="twitter:title" />
         <meta content={description} name="twitter:description" />
       </Head>
-      {children}
+      <div className="relative z-20">
+        {children}
+      </div>
     </>
   );
 });

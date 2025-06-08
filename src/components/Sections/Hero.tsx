@@ -1,6 +1,5 @@
 import classNames from 'classnames';
 import {motion, useScroll, useTransform} from 'framer-motion';
-import Image from 'next/image';
 import {FC, memo, useRef} from 'react';
 
 import {heroContentVariants, floatingVariants, staggerContainer, staggerChildren} from '../../animations/variants';
@@ -24,8 +23,8 @@ const Hero: FC = memo(() => {
 
   return (
     <Section noPadding sectionId={SectionId.Hero}>
-      <div ref={heroRef} className="relative flex h-screen w-screen items-center justify-center">
-        <Image
+      <div className="relative flex h-screen w-screen items-center justify-center">
+        {/* <Image
           alt={`${name}-image`}
           className="absolute z-0"
           fill
@@ -33,7 +32,7 @@ const Hero: FC = memo(() => {
           placeholder="blur"
           priority
           src={imageSrc}
-        />
+        /> */}
         <motion.div 
           style={{ y, opacity }}
           className="z-10  max-w-screen-lg px-4 lg:px-0"
