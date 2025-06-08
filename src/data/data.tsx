@@ -10,6 +10,8 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
+import YNDMDashboard from '../images/portfolio/YNDM-Dashboard.webp';
+import YNDMLogin from '../images/portfolio/YNDM-Login.webp';
 import porfolioImage1 from '../images/portfolio/1 - waveportal.png';
 import porfolioImage2 from '../images/portfolio/2 - Flashloan.webp';
 import porfolioImage3 from '../images/portfolio/3-Matrix.webp';
@@ -94,13 +96,15 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: [
-    {line: `• Passion for coding since early school years. Competed successfully in school, and then city level programming Olympiads using Pascal language.`},
-    {line: `• Dived deeper into Computer Science studies - giving me a real grounding in concepts and programming languages (C++, C, ASM to name just a few).`},
-    {line: `• My Bachelor degree saw me deliver LabView automation for a Laser Research Centre and an automated laser-induced damage measurement system.`},
-    {line: `• Post-graduation, I pursued IT as a career, building to several roles with HP partners and Hewlett Packard corporation itself. Here I covered a full range in software development, integration and automation, from stakeholder management to requirements-gathering, and designing products - to seeing customers smile and happily perform their roles using my code in production (JavaScript, Java, Jython, Basic, SQL, etc.).`},
-    {line: `• I saw the security field as an obvious evolution for me - constructing software applications less vulnerable to the actions of malicious actors, and instilling peace of mind for people using them that the tools I am building are safe for them and their companies. Through my security journey, I have interacted with multiple technologies and coding languages (multiple operating systems, CI/CD platforms, containers, service buses, TypeScript, Python, React, MongoDb, etc.).`},
-    {line: `• I joined Swyftx Crypto Exchange, and was enamoured with crypto and blockchain technology! Now I want to roll up my sleeves and get my hands dirty in the coding technologies for web3 to write the next chapter for the world with more automation and transparency!`},
-    {line: `• At present, I am working independently on projects with smart contracts on local, dev and test blockchains involving full stack development. Get in touch to see how we can work together, or have a chat to me about how I might fit a contract need or role.`},
+    {line: `• Strong foundation in computer science with early achievements in programming competitions, followed by formal education covering C++, C, and Assembly.`},
+    {line: `• Developed automation systems using LabView for laser research during bachelor's studies.`},
+    {line: `• Built extensive software development experience at HP and partners, working across full development lifecycle using JavaScript, Java, Jython, and SQL.`},
+    {line: `• Transitioned to Application Security, specialising in secure software development across various technologies (CI/CD, containers, TypeScript, Python, React, MongoDB).`},
+    {line: `• Led security initiatives at Swyftx as founding security member, growing team from 1 to 20+ while focusing on application security.`},
+    {line: `• Gained blockchain expertise through smart contract development using Solidity and React frontend integration.`},
+    {line: `• Drove security awareness and best practices at Officeworks through implementation of security scanning tools and threat assessments.`},
+    {line: `• Enhanced SSDLC maturity at Belong through stakeholder engagement and security risk mitigation.`},
+    {line: `• Currently helping multiple startups with DevSecOps and working on my own coding projects.`},
   ], 
   aboutItems: [
     {label: 'Location', text: 'QLD, Australia', Icon: MapIcon},
@@ -283,40 +287,16 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Solana GIF NFTs',
-    description: 'Rust and React',
-    url: 'https://solanasurf.vercel.app/',
-    image: porfolioImage6,
+    title: 'YNDM Login',
+    description: 'Login page for Your Next Digital Me (YNDM) application.',
+    url: '', // Add URL if available
+    image: YNDMLogin,
   },
   {
-    title: 'Random Word NFT Minting',
-    description: 'Solidity and JavaScript',
-    url: 'https://randomnfts.vercel.app/',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Flashloan foundation',
-    description: 'Solidity and JavaScript',
-    url: 'https://github.com/zinduolis/flashloan-foundation',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Wave Portal',
-    description: 'Solidity and React',
-    url: 'https://redgraz-waveportal.ilgakulnis.repl.co/',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Hacking Ethernaut',
-    description: 'Smart Contract Security',
-    url: 'https://github.com/zinduolis/attackEthernaut',
-    image: porfolioImage5,
-  },
-  {
-    title: 'More Tasty code 🤤',
-    description: 'On GitHub',
-    url: 'https://github.com/zinduolis',
-    image: porfolioImage3,
+    title: 'YNDM Dashboard',
+    description: 'Dashboard for Your Next Digital Me (YNDM) application.',
+    url: '', // Add URL if available
+    image: YNDMDashboard,
   },
 ];
 
