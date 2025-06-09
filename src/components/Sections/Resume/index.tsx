@@ -10,7 +10,7 @@ const Resume: FC = memo(() => {
     <Section className="" sectionId={SectionId.Resume}>
       <div className="rounded-xl bg-gray-800/40 p-6 shadow-lg backdrop-blur-sm">
         <ResumeSection title="Skills">
-          <p className="pb-8">Snapshot of my skills</p>
+          <p className="pb-8 text-white">Snapshot of my skills</p>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {skills.map((skillgroup, index) => (
               <SkillGroup key={`${skillgroup.name}-${index}`} skillGroup={skillgroup} />
