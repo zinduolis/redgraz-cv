@@ -8,6 +8,47 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
+// Technology icons from react-icons
+import {
+  SiAmazon,
+  SiDocker,
+  SiKubernetes,
+  SiGithubactions,
+  SiGitlab,
+  SiTerraform,
+  SiReact,
+  SiTypescript,
+  SiNextdotjs,
+  SiJavascript,
+  SiTailwindcss,
+  SiAngular,
+  SiNodedotjs,
+  SiSolidity,
+  SiPython,
+  SiCplusplus,
+  SiOpenjdk,
+  SiRust,
+  SiMongodb,
+  SiPostgresql,
+  SiOracle,
+  SiRedis,
+  SiElasticsearch,
+  SiOpenai,
+} from 'react-icons/si';
+import {
+  GiShield,
+  GiOnTarget,
+  GiSecurityGate,
+  GiArtificialIntelligence,
+  GiDatabase,
+  GiComputing,
+} from 'react-icons/gi';
+import {
+  BiCodeAlt,
+  BiShield,
+  BiChart,
+} from 'react-icons/bi';
+
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import YNDMDashboard from '../images/portfolio/YNDM-Dashboard.webp';
@@ -123,26 +164,32 @@ export const skills: SkillGroup[] = [
       {
         name: 'AWS',
         level: 8,
+        Icon: SiAmazon,
       },
       {
         name: 'Docker',
         level: 8,
+        Icon: SiDocker,
       },
       {
         name: 'Kubernetes',
         level: 7,
+        Icon: SiKubernetes,
       },
       {
         name: 'GitHub Actions',
         level: 9,
+        Icon: SiGithubactions,
       },
       {
         name: 'GitLab CI/CD',
         level: 7,
+        Icon: SiGitlab,
       },
       {
         name: 'Terraform',
         level: 6,
+        Icon: SiTerraform,
       },
     ],
   },
@@ -152,26 +199,32 @@ export const skills: SkillGroup[] = [
       {
         name: 'OWASP ASVS',
         level: 9,
+        Icon: GiShield,
       },
       {
         name: 'Penetration Testing',
         level: 8,
+        Icon: GiOnTarget,
       },
       {
         name: 'Threat Modeling',
         level: 8,
+        Icon: GiSecurityGate,
       },
       {
         name: 'NIST Framework',
         level: 7,
+        Icon: BiShield,
       },
       {
         name: 'GDPR Compliance',
         level: 7,
+        Icon: GiShield,
       },
       {
         name: 'ISO 27001',
         level: 6,
+        Icon: BiShield,
       },
     ],
   },
@@ -181,26 +234,32 @@ export const skills: SkillGroup[] = [
       {
         name: 'React',
         level: 8,
+        Icon: SiReact,
       },
       {
         name: 'TypeScript',
         level: 8,
+        Icon: SiTypescript,
       },
       {
         name: 'Next.js',
         level: 7,
+        Icon: SiNextdotjs,
       },
       {
         name: 'JavaScript',
         level: 9,
+        Icon: SiJavascript,
       },
       {
         name: 'Tailwind CSS',
         level: 7,
+        Icon: SiTailwindcss,
       },
       {
         name: 'Angular',
         level: 6,
+        Icon: SiAngular,
       },
     ],
   },
@@ -210,26 +269,32 @@ export const skills: SkillGroup[] = [
       {
         name: 'Node.js',
         level: 7,
+        Icon: SiNodedotjs,
       },
       {
         name: 'Solidity',
         level: 8,
+        Icon: SiSolidity,
       },
       {
         name: 'Python',
         level: 8,
+        Icon: SiPython,
       },
       {
         name: 'C++',
         level: 7,
+        Icon: SiCplusplus,
       },
       {
         name: 'Java',
         level: 6,
+        Icon: SiOpenjdk,
       },
       {
         name: 'Rust',
         level: 5,
+        Icon: SiRust,
       },
     ],
   },
@@ -239,22 +304,27 @@ export const skills: SkillGroup[] = [
       {
         name: 'MongoDB',
         level: 6,
+        Icon: SiMongodb,
       },
       {
         name: 'PostgreSQL',
         level: 8,
+        Icon: SiPostgresql,
       },
       {
         name: 'Oracle',
         level: 7,
+        Icon: SiOracle,
       },
       {
         name: 'Redis',
         level: 6,
+        Icon: SiRedis,
       },
       {
         name: 'ElasticSearch',
         level: 5,
+        Icon: SiElasticsearch,
       },
     ],
   },
@@ -264,22 +334,27 @@ export const skills: SkillGroup[] = [
       {
         name: 'ChatGPT/LLMs',
         level: 8,
+        Icon: SiOpenai,
       },
       {
         name: 'Claude',
         level: 7,
+        Icon: GiArtificialIntelligence,
       },
       {
         name: 'AI Code Generation',
         level: 8,
+        Icon: BiCodeAlt,
       },
       {
         name: 'Prompt Engineering',
         level: 8,
+        Icon: GiArtificialIntelligence,
       },
       {
         name: 'AutoML',
         level: 5,
+        Icon: BiChart,
       },
     ],
   },
