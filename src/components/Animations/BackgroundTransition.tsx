@@ -27,14 +27,14 @@ const BackgroundTransition: FC = memo(() => {
   // Animation values based on scroll position
   const testimonialOpacity = useTransform(
     scrollY,
-    [resumeSectionOffset - 200, resumeSectionOffset + 100],
+    [resumeSectionOffset, testimonialsSectionOffset],
     [0, 1]
   );
 
   const seaLandscapeOpacity = useTransform(
     scrollY,
-    [0, resumeSectionOffset - 300, resumeSectionOffset, resumeSectionOffset + 400],
-    [1, 1, 0.8, 0]
+    [0, resumeSectionOffset, testimonialsSectionOffset],
+    [1, 1, 0]
   );
 
   return (
