@@ -64,8 +64,6 @@ import heroImage from '../images/Sea_Landscape.webp';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
-  ContactSection,
-  ContactType,
   Hero,
   Hobbies,
   HomepageMeta,
@@ -90,7 +88,6 @@ export const homePageMeta: HomepageMeta = {
 export const SectionId = {
   Hero: 'hero',
   About: 'about',
-  Contact: 'contact',
   Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
@@ -114,15 +111,9 @@ export const heroData: Hero = {
     </>
   ),
   actions: [
-    // {
-    //   href: '/assets/resume.pdf',
-    //   text: 'Resume',
-    //   primary: true,
-    //   Icon: DownloadIcon,
-    // },
     {
-      href: `#${SectionId.Contact}`,
-      text: 'Contact',
+      href: `#${SectionId.About}`,
+      text: 'About',
       primary: false,
     },
   ],
@@ -146,11 +137,8 @@ export const aboutData: About = {
   ], 
   aboutItems: [
     {label: 'Location', text: 'QLD, Australia', Icon: MapIcon},
-   // {label: 'Age', text: '29', Icon: CalendarIcon},
-  //  {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Coding, Surfing, Gardening', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Coding, Surfing', Icon: SparklesIcon},
     {label: 'Study', text: 'Computer Science / Physics', Icon: AcademicCapIcon},
-  //  {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -516,32 +504,6 @@ export const testimonial: TestimonialSection = {
       name: 'Lead Solution Architect at Micro Focus',
       text: 'Red Graz is a very thorough individual, Always ensuring that tasks are completed to ensure that customers of our team are aware of what we expect of them as well as what they should expect from us. Red Graz is incredibly knowledgeable across many disciplines and applies his knowledge learned elsewhere to all aspects of his work.',
       image: '',
-    },
-  ],
-};
-
-/**
- * Contact section
- */
-
-export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
-  items: [
-    {
-      type: ContactType.LinkedIn,
-      text: 'My LinkedIn',
-      href: 'https://www.linkedin.com/in/Al-7866317/',
-    },
-    {
-      type: ContactType.Location,
-      text: 'Gold Coast, QLD, Australia',
-      href: 'https://goo.gl/maps/UbAyx7GpG8GvAQxf8',
-    },
-    {
-      type: ContactType.Github,
-      text: 'zinduolis',
-      href: 'https://github.com/zinduolis',
     },
   ],
 };

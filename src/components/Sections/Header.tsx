@@ -15,7 +15,6 @@ const navLabels: Record<SectionId, string> = {
   [SectionId.Portfolio]: 'PORTFOLIO',
   [SectionId.Resume]: 'SKILLS',
   [SectionId.Testimonials]: 'TESTIMONIALS',
-  [SectionId.Contact]: 'CONTACT',
   [SectionId.Skills]: 'SKILLS', // Added for completeness, though not in current nav
   [SectionId.Stats]: 'STATS', // Added for completeness, though not in current nav
 };
