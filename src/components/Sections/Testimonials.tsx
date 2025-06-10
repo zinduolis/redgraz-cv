@@ -73,10 +73,8 @@ const Testimonials: FC = memo(() => {
     <Section noPadding sectionId={SectionId.Testimonials}>
       <div
         className={classNames(
-          'flex w-full items-center justify-center bg-cover bg-center px-4 py-16 md:py-24 lg:px-8',
-          parallaxEnabled && 'bg-fixed',
+          'flex w-full items-center justify-center px-4 py-16 md:py-24 lg:px-8',
         )}
-        style={{ backgroundImage: `url('/images/testimonial.webp')` }}
       >
         <div className="z-10 w-full max-w-screen-md px-4 lg:px-0">
           <div className="flex flex-col items-center gap-y-6 rounded-xl bg-gray-800/60 p-6 shadow-lg backdrop-blur-sm">
