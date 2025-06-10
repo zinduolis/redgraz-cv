@@ -24,17 +24,17 @@ const BackgroundTransition: FC = memo(() => {
     }
   }, []);
 
-  // Animation values based on scroll position
+  // Animation values based on scroll position - seamless crossfade
   const testimonialOpacity = useTransform(
     scrollY,
-    [resumeSectionOffset, testimonialsSectionOffset],
+    [resumeSectionOffset, testimonialsSectionOffset + 200],
     [0, 1]
   );
 
   const seaLandscapeOpacity = useTransform(
     scrollY,
-    [0, resumeSectionOffset, testimonialsSectionOffset],
-    [1, 1, 0]
+    [0, resumeSectionOffset, testimonialsSectionOffset + 200],
+    [1, 0.3, 0]
   );
 
   return (
@@ -69,8 +69,8 @@ const BackgroundTransition: FC = memo(() => {
         />
       </motion.div>
 
-      {/* Overlay to ensure content is visible over backgrounds */}
-      <div className="absolute inset-0 bg-black/10 z-10" />
+      {/* Overlay to ensure content is visible and consistent brightness over backgrounds */}
+      <div className="absolute inset-0 bg-black/20 z-10" />
     </div>
   );
 });
